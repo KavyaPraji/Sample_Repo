@@ -15,6 +15,10 @@ public class Homepage  {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	@FindBy(linkText="Products")
+	private WebElement producttLink;
+	
 	@FindBy(xpath="(//a[text()='Organizations'])[1]")
 	private WebElement orgLink;
 	
@@ -90,6 +94,12 @@ public class Homepage  {
 
 	public WebElement getSignOutLink() {
 		return signOutLink;
+	}
+
+
+
+	public WebElement getProducttLink() {
+		return producttLink;
 	}
 	
 	
