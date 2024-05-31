@@ -9,6 +9,16 @@ public class OrganisationTest
 	{
 		System.out.println("execute createOrgTest");
 		
+		String URL=System.getProperty("url");
+		System.out.println(URL);
+		String BROWSER=System.getProperty("browser");
+		System.out.println(BROWSER);
+		String USERNAME=System.getProperty("username");
+		System.out.println(USERNAME);
+		String PASSWORD=System.getProperty("password");
+		System.out.println(PASSWORD);
+		System.out.println("execute createContactTest");
+		
 	}
 	
 	@Test
