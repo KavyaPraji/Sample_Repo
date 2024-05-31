@@ -3,14 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtiger.contactmodule.Create_Contact_Module">
-      <methods>
-		  <include name="createContactTest"/>
-			  
-		
-	  </methods>
-	   </class>
-		  
+      <class name="com.vtiger.contactmodule.Create_Contact_Module"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
